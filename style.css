@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #191d28;
+    color: white;
+    overflow-x: hidden;
+}
+
+.top {
+    background-color: #191d28;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headtwo{
+    justify-content: center;
+}
+
+.mylogo {
+    width: 300px;
+}
+.min{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.dropdowns {
+    display: flex;
+    gap: 10px;
+}
+
+select, button {
+    padding: 8px;
+    font-size: 18px;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 10px;
+    width:90px;
+    height: 40px;
+    border: none;
+}
+
+.tgbtn {
+    background-color: #0088cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 30vh;
+    cursor: pointer;
+}
+
+.mainhead {
+    text-align: center;
+    color: gray;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #191d28;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.mytable {
+    width: 80%;
+    margin: auto;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color:#343a40;
+    border-radius: 8px;
+    height: 6vh;
+    margin-top: 20px;
+}
+
+.tabhead, .content1, .content2, .content3, .content4, .content5, .content6, .content7, .content8, .content9, .content10 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+}
+.tabhead {
+    background-color: #191d28;
+    margin-bottom: -20px;
+    font-size: 24px;
+    color: gray;
+    font-weight: 850;
+}
+
+
+.mytable {
+    width: 95%; /* Adjust the width as needed */
+    margin-left: 19px; /* Center the container horizontally with equal gaps on both sides */
+}
+
+.mytable div {
+    text-align: center;
+}
+
+.footer {
+    background-color: #191d28;
+    color: gray;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.support{
+   flex: .10;
+}
+.hr{
+    background-color: #191d28;
+}
+
+.nav {
+    background-color: #191d28;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.best{
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.avg{
+    font-size: 80px;
+    color: white;
+    margin-top: -60px;
+}
+
+.downbtn {
+    color: #17a2b8;
+    padding:10px;
+    cursor: pointer;
+    width: 40vh;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #138fa2; /* Set the border color */
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .mytable {
+        width: 100%;
+    }
+}
